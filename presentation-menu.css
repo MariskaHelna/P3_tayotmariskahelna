@@ -1,0 +1,35 @@
+
+ .card-img{
+    margin: 0 auto;
+    object-fit: cover;
+    background-size: cover;
+    height: 320px;
+    width: 100%;
+
+ }
+ .menu-enchantée{
+    color:black;
+    background-color:white;
+    background-image:url( images/restaurants/la-note-enchantee.jpg );
+    margin:0;
+ }
+ .menu-gout{
+    color:black;
+    background-color:white;
+    background-image:url( images/restaurants/la-palette-du-gout.jpg);
+    margin:0;
+ }
+ .menu-sens{
+    color:black;
+    background-color:white;
+    background-image:url(images/restaurants/le-delice-des-sens.jpg);
+    margin:0;
+ }
+ .logo{
+     display: flex;
+     justify-content: space-around;
+ }
+ .fa-arrow-left{
+     font-size: 1.2em;
+     margin-block-start: 20px;
+ }
