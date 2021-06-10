@@ -24,6 +24,10 @@
     justify-content: center;
     flex-direction: column;
   }
+  .container1:hover .fa-heart {
+    background-color: #ff79DA;
+    transition: 1s; 
+  }
 
   .card-img {
     display: block;
@@ -39,7 +43,18 @@
   }
   .logo{
     text-align: center;
+    font-family: shrikhand ,ariane , sans-serif;
   }
+  h2,h4,h3{
+    font-family: shrikhand ,ariane , sans-serif;
+  }
+
+  body{
+
+    font-family: roboto , ariane , sans-serif;
+  }
+   
+
   footer{
     background-color: grey;
     padding: 20px;
@@ -189,3 +204,7 @@ h3{
 		padding: 0;
 		text-align: center;
 	}
+  .adresse{
+    text-decoration: none;
+    color: white;
+  }

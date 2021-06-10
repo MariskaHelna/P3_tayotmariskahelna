@@ -181,4 +181,10 @@
   .fa-heart{
     color: grey;
   }
+  .logo , h2,h4,h3{
+    font-family: shrikhand ,ariane , sans-serif;
+  }
+  body{
+    font-family: roboto , ariane , sans-serif;
+  }
  
