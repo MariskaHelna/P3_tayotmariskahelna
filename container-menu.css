@@ -1,67 +1,157 @@
 .Entrée{
     display: flex;
-    border: 2px solid white;
     background-color: white;
     border-radius: 15px;
-    height: 50px;
+    height: 60px;
     margin-block-start: 20px;
     font-size: 1.2em;
     width: 100%;
   }
   .Entrée1{
-      width: 90%;
+      width: 100%;
+      padding: 10px;
   }
   .Entrée2{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     font-size: 0.8em;
+    width: 100% !important;
+  }
+
+  .sous-titre{
+    width: 90%;
+  }
+
+  .menu-prix {
     width: 10%;
   }
 
+  .Entrée3{
+    width: 0%;
+    transition: width 1s;
+  }
+
+  .Entrée3 a {
+    display: none;
+  }
+
+  .Entrée:hover .Entrée3{
+    display: flex;
+    width: 10%;
+    background-color: #99e2d0; 
+    border-radius: 0 15px 15px 0;
+  }
+
+  .Entrée:hover .Entrée3 a{
+    display: block;
+  }
+  .fa-check-circle{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 45px;
+  }
   .Plat{
     display: flex;
-    border: 2px solid white;
     background-color: white;
     border-radius: 15px;
-    height: 50px;
-    margin-block-start: 20px;
-    font-size: 1.2em;
-      width: 100%;
-      
-  }
-  .Plat1{
-    width: 90%;
-   
-  }
-  .Plat2{
-    display: flex;
-    align-items: center;
-    font-size: 0.8em;
-    width: 10%;
-  }
-  .Dessert{
-    display: flex;
-    border: 2px solid white;
-    background-color: white;
-    border-radius: 15px;
-    height: 50px;
+    height: 60px;
     margin-block-start: 20px;
     font-size: 1.2em;
     width: 100%;
-  
+  }
+  .Plat1{
+      width: 100%;
+      padding: 10px;
+  }
+  .Plat2{
+    display: flex;
+    font-size: 0.8em;
+    width: 100% !important;
+  }
+
+  .Plat3{
+    width: 0%;
+    transition: width 1s;
+  }
+
+  .Plat3 a {
+    display: none;
+  }
+
+  .Plat:hover .Plat3{
+    display: flex;
+    width: 10%;
+    background-color: #99e2d0; 
+    border-radius: 0 15px 15px 0;
+  }
+
+  .Plat:hover .Plat3 a{
+    display: block;
+  }
+  .Dessert{
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    height: 60px;
+    margin-block-start: 20px;
+    font-size: 1.2em;
+    width: 100%;
   }
   .Déssert1{
-      width: 90%;
+      width: 100%;
+      padding: 10px;
   }
   .Déssert2{
     display: flex;
-    align-items: center;
     font-size: 0.8em;
+    width: 100% !important;
+  }
+
+  .Déssert3{
+    width: 0%;
+    transition: width 1s;
+  }
+
+  .Déssert3 a {
+    display: none;
+  }
+
+  .Dessert:hover .Déssert3{
+    display: flex;
     width: 10%;
+    background-color: #99e2d0; 
+    border-radius: 0 15px 15px 0;
+  }
+
+  .Dessert:hover .Déssert3 a{
+    display: block;
+  }
+  h2{
+    font-size: 2em;
   }
   h4{
       font-size: 1.5em;
+      border-bottom: 2px solid #99e2d0;
+      width: 4%;
+      font-weight: lighter;
+      text-transform: uppercase;
+  }
+  .font-size{
+    font-size: 1em;
+  }
+  .font-size1{
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  p{
+    font-size: 1.2em;
+    color: white;
+  }
+  h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
   }
   section{
       position: relative;
@@ -87,5 +177,8 @@
   .coeur{
       width: 10%;
       font-size: 2em;
+  }
+  .fa-heart{
+    color: grey;
   }
  
