@@ -28,6 +28,9 @@
   .Entrée3{
     width: 0%;
     transition: width 1s;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .Entrée3 a {
@@ -48,8 +51,6 @@
     text-decoration: none;
     color: white;
     position: relative;
-    top: 20px;
-    left: 45px;
   }
   .Plat{
     display: flex;
@@ -73,6 +74,9 @@
   .Plat3{
     width: 0%;
     transition: width 1s;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .Plat3 a {
@@ -111,6 +115,9 @@
   .Déssert3{
     width: 0%;
     transition: width 1s;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .Déssert3 a {
@@ -187,4 +194,5 @@
   body{
     font-family: roboto , ariane , sans-serif;
   }
+
  
