@@ -18,12 +18,11 @@
       }
       .fa-heart{
         font-size: 3em;
-      }
-      
-     
-  
+      } 
 
 }
+
+
 /*Extra small devices (phones 600 pxand down)*/
 @media only screen and (min-width: 768px) and (max-width: 1024px){
       .card-img {
