@@ -18,6 +18,9 @@
       }
       .fa-heart{
         font-size: 3em;
+      }
+      .nouveau{
+        left: 60%;
       } 
 
 }
@@ -49,6 +52,10 @@
       }
       .border-rose{
         width: 50%;
+      }
+      .nouveau{
+        left: 60%;
+       
       }
       
 

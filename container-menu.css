@@ -52,6 +52,11 @@
     color: white;
     position: relative;
   }
+  .fa-check-circle:hover {
+    transition: 4s;
+    transform:rotate(50deg)
+  
+  }
   .Plat{
     display: flex;
     background-color: white;

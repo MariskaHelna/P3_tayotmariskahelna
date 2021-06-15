@@ -3,9 +3,8 @@
     transition: 0.3s;
     background: white;
     border-radius: 20px;
-    width: 96%;
+    width: 90%;
     display: flex;
-    position: relative;
     flex-direction: column;
     margin-bottom: 20px;
     overflow: hidden;
@@ -24,9 +23,21 @@
     justify-content: center;
     flex-direction: column;
   }
-  .container1:hover .fa-heart {
-    background-color: #ff79DA;
-    transition: 1s; 
+  .container1{
+    width: 10%;
+    margin: 20px;
+  }
+  .fa-heart{
+    color: grey;
+    font-size: 2em;
+  }
+ 
+  .fa-heart:hover {
+    color:  #ff79da;
+    transition: 2s; 
+    box-shadow: none;
+    font-weight: 900;
+
   }
 
   .card-img {
@@ -36,9 +47,8 @@
     object-fit: cover;
     border-radius: 30px;
     background-size: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    height: 40rem;
+    border-radius: 20px;
+    height: 20rem;
    width: 100%;
   }
   .logo{
@@ -147,14 +157,7 @@
   justify-content: center;
   font-size: 1.5em
 }
-.container1{
-  width: 10%;
-  margin: 20px;
-}
-.fa-heart{
-  color: grey;
-  font-size: 2em;
-}
+
 .flex{
   width: 100%;
   display: flex;
@@ -177,7 +180,7 @@ h3{
   font-size: 1.5em;
 }
 .loader{
-	background: url('images/ajax-loader.gif') 50% 50% no-repeat rgba(255, 255, 255, 0.8);
+	background: url('images/ajax-loader.gif') 50% 50% no-repeat rgba(255, 255, 255, 1);
 	cursor: wait;
 	height: 100%;
 	left: 0;
@@ -185,23 +188,28 @@ h3{
 	top: 0;
 	width: 100%;
 	z-index: 9999;
-  animation-duration: 1s;
+
+  animation: fadeOut 1s forwards;
+  animation-iteration-count: 1;
+  animation-delay: 3s;
+
 }
-	.loader h1{
-		background: none;
-		border: none;
-		color: #458976;
-		font-size: 22px;
-		font-family: "Open Sans",sans-serif;
-		font-variant: small-caps;
-		font-weight: 700;
-		height: 700px;
-		line-height: 700px;
-		margin: 0 0 10px;
-		padding: 0;
-		text-align: center;
-	}
+
+@keyframes fadeOut {
+  0% {opacity:1;}
+  1% {opacity:0;}
+  100% {opacity:0; cursor: auto; background: unset; position: unset }
+}
+
   .adresse{
     text-decoration: none;
     color: white;
+  }
+  .nouveau{
+    position: absolute;
+    padding: 5px;
+    font-weight: bold;
+    color: green;
+    left: 80%;
+    background: #99e2d0;
   }
