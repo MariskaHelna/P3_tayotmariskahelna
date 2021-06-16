@@ -3,14 +3,16 @@
     transition: 0.3s;
     background: white;
     border-radius: 20px;
-    width: 90%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     overflow: hidden;
     margin: 0 auto;
     margin-block-start: 20px;
+    position: relative;
   }
+
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
@@ -91,6 +93,10 @@
   }
   .margin20{
     padding: 20px;
+  }
+  .card-list{
+    display: flex;
+    flex-wrap: wrap;
   }
   .restaurant{
     background-color: #f2f2f2;
@@ -210,6 +216,7 @@ h3{
     padding: 5px;
     font-weight: bold;
     color: green;
-    left: 80%;
+    right: 3%;
+    top: 0%;
     background: #99e2d0;
   }
