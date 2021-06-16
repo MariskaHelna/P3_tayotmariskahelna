@@ -51,12 +51,11 @@
     text-decoration: none;
     color: white;
     position: relative;
+
+    animation:spin 1s linear;
   }
-  .fa-check-circle:hover {
-    transition: 4s;
-    transform:rotate(50deg)
-  
-  }
+  @keyframes spin { 100% { transform:rotate(360deg); } }
+
   .Plat{
     display: flex;
     background-color: white;
