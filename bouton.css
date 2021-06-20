@@ -3,7 +3,7 @@
     border-radius: 30px;
     height: 60px;
     color: white;
-    background-color: #ff79DA;
+    background-image:linear-gradient(0deg,rgba(147,86,220,9), rgba(255, 121, 218, 9));
     text-align: center;
     width: 30%;
     display: flex;
