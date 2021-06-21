@@ -36,12 +36,11 @@
     font-size: 2em;
   }
  
-  .fa-heart:hover {
+  .fa-heart:active{
     color:  #ff79da;
     transition: 2s; 
     box-shadow: none;
     font-weight: 900;
-
   }
 
   .card-img {
@@ -92,6 +91,12 @@
     flex-direction: column;
     align-items: center;
 
+  }
+  .list-element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   .margin20{
     padding: 20px;
