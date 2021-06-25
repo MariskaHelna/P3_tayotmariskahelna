@@ -1,4 +1,4 @@
-/*Extra small devices (phones 600 pxand down)*/
+/*Extra small */
 @media only screen and (min-width: 250px) and (max-width: 767px){
       .card-img {
         border-radius: 10px 10px 0 0;
@@ -27,7 +27,7 @@
 }
 
 
-/*Extra small devices (phones 600 pxand down)*/
+/*small */
 @media only screen and (min-width: 768px) and (max-width: 1024px){
       .card-img {
         border-radius: 10px 10px 0 0;
