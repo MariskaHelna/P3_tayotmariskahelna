@@ -33,12 +33,13 @@
   }
   .fa-heart{
     color: grey;
+
     font-size: 2em;
   }
  
   .fa-heart:hover{
-    color:  #ff79da;
-    transition: 2s; 
+    color: #9356dc;
+    transition: 0.5s; 
     box-shadow: none;
     font-weight: 900;
     animation: progress-bar 1s linear;
@@ -114,18 +115,16 @@
   border-radius: 30px;
   height: 60px;
   color: white;
-  background-image:linear-gradient(0deg,rgba(147,86,220,9), rgba(255, 121, 218, 9));
+  background:linear-gradient(0deg,rgba(147,86,220,9), rgba(255, 121, 218, 9));
   text-align: center;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.5em;
+  box-shadow: 10px 5px 5px #f2f2f2 ;                    
   }
-  .border-rose:hover{
-    color: black;
-  }
-  
+
 .choisir{
   display: flex;
   border: 2px solid #f2f2f2;
@@ -238,16 +237,21 @@ h3{
   }
   .choisir:hover{
     background-color: lavenderblush;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
   .composer:hover .fas{
     color: blueviolet;
   }
   .composer:hover{
     background-color: lavenderblush;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
   .deguster:hover .fas{
     color: blueviolet;
   }
   .deguster:hover{
     background-color: lavenderblush;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   }
+  .border-rose:hover{
+    box-shadow: 10px 5px 5px #ff79da;  }

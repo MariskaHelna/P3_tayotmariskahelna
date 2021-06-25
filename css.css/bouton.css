@@ -3,7 +3,7 @@
     border-radius: 30px;
     height: 60px;
     color: white;
-    background-image:linear-gradient(0deg,rgba(147,86,220,9), rgba(255, 121, 218, 9));
+    background:linear-gradient(0deg,rgba(147,86,220,9), rgba(255, 121, 218, 9));
     text-align: center;
     width: 30%;
     display: flex;
@@ -12,10 +12,13 @@
     margin-top: 20px;
     text-decoration: none;
     font-size: 1.5em;
+    box-shadow: 10px 5px 5px #f2f2f2 ;                    
+
     }
     .border-rose:hover{
-      color: black;
+      box-shadow: 10px 5px 5px #ff79da;
     }
+
     aside{
         text-align: center;
         width: 100%;

@@ -253,7 +253,7 @@
     color: grey;
   }
   .fa-heart:hover{
-    color:  #ff79da;
+    color: #9356dc;
     transition: 2s; 
     box-shadow: none;
     font-weight: 900;
