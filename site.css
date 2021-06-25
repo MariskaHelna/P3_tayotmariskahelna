@@ -122,6 +122,9 @@
   justify-content: center;
   font-size: 1.5em;
   }
+  .border-rose:hover{
+    color: black;
+  }
   
 .choisir{
   display: flex;
@@ -229,4 +232,22 @@ h3{
     right: 3%;
     top: 0%;
     background: #99e2d0;
+  }
+  .choisir:hover .fas{
+    color: blueviolet;
+  }
+  .choisir:hover{
+    background-color: lavenderblush;
+  }
+  .composer:hover .fas{
+    color: blueviolet;
+  }
+  .composer:hover{
+    background-color: lavenderblush;
+  }
+  .deguster:hover .fas{
+    color: blueviolet;
+  }
+  .deguster:hover{
+    background-color: lavenderblush;
   }
