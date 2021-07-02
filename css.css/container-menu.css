@@ -198,7 +198,7 @@
   .Dessert:hover .Déssert3 a{
     display: block;
   }
-  h2{
+  h2 , h1{
     font-size: 2em;
   }
   h4{
@@ -259,7 +259,7 @@
     font-weight: 900;
     animation: progress-bar 1s linear;
   }
-  .logo , h2,h4,h3{
+  .logo , h2,h4,h3,h1{
     font-family: shrikhand ,ariane , sans-serif;
   }
   body{
@@ -270,7 +270,7 @@
   .coeur{
     font-size: 2em;
 }
-h2{
+h2,h1{
   font-size: 2.3em;
 }
 h4{
@@ -302,7 +302,7 @@ h3{
   .coeur{
     font-size: 2em;
 }
-h2{
+h2 ,h1{
   font-size: 2.3em;
 }
 h4{
