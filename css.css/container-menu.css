@@ -198,10 +198,10 @@
   .Dessert:hover .Déssert3 a{
     display: block;
   }
-  h2 , h1{
+  h1{
     font-size: 2em;
   }
-  h4{
+  h2,h3,h4{
       font-size: 1.5em;
       border-bottom: 2px solid #99e2d0;
       width: 4%;
@@ -219,7 +219,7 @@
     font-size: 1.2em;
     color: white;
   }
-  h3{
+  h5{
     font-size: 1.5em;
     font-weight: bold;
     color: white;
@@ -259,7 +259,7 @@
     font-weight: 900;
     animation: progress-bar 1s linear;
   }
-  .logo , h2,h4,h3,h1{
+  .logo , h2,h4,h3,h1,h5{
     font-family: shrikhand ,ariane , sans-serif;
   }
   body{
@@ -270,10 +270,10 @@
   .coeur{
     font-size: 2em;
 }
-h2,h1{
+h1{
   font-size: 2.3em;
 }
-h4{
+h2,h3,h4{
     font-size: 1.8em;
 }
 .font-size{
@@ -285,7 +285,7 @@ h4{
 p{
   font-size: 1.5em;
 }
-h3{
+h5{
   font-size: 1.8em;
 }
 .Dessert, .Entrée, .Plat{
@@ -302,10 +302,10 @@ h3{
   .coeur{
     font-size: 2em;
 }
-h2 ,h1{
+h1{
   font-size: 2.3em;
 }
-h4{
+h4,h2,h3{
     font-size: 1.8em;
 }
 .font-size{
@@ -317,7 +317,7 @@ h4{
 p{
   font-size: 1.5em;
 }
-h3{
+h5{
   font-size: 1.8em;
 }
 .Dessert, .Entrée, .Plat{
