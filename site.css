@@ -200,7 +200,10 @@ p{
   margin: 0%;
 }
 h1{
-  font-size: 3em;
+  font-weight: 900;
+  font-style: oblique;
+  font-family: system-ui;
+  font-size: 4em;
   margin: 0;
 }
 a{
