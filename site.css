@@ -183,7 +183,7 @@ input:-moz-placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.2darkgreyem
+  font-size: 1.2em;
 }
 
 .flex{
