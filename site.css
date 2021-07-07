@@ -9,7 +9,7 @@
     margin-bottom: 20px;
     overflow: hidden;
     margin: 0 auto;
-    margin-block-start: 20px;
+    margin-bottom: 20px;
     position: relative;
   }
 
@@ -90,10 +90,7 @@
     font-size: 1.5em;
     padding: 2px;
 }
-input::-webkit-input-placeholder {
-  color:black;
-}
-input:-moz-placeholder {
+input::placeholder {
   color:black;
 }
   main{
@@ -127,7 +124,7 @@ input:-moz-placeholder {
   border-radius: 30px;
   height: 60px;
   color: white;
-  background:linear-gradient(0deg,rgba(147,86,220,9), rgba(255, 121, 218, 9));
+  background:linear-gradient(0deg,rgba(147,86,220,0.9), rgba(255, 121, 218, 0.9));
   text-align: center;
   width: 100%;
   display: flex;
@@ -148,7 +145,6 @@ input:-moz-placeholder {
 }
 
 .border-violet{
-  border: 2px solid #9356DC;
   border-radius: 30px;
   height: 30px;
   width: 30px;
