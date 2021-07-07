@@ -85,7 +85,7 @@
   }
   .bouton {
     text-align: center;
-    border: 2px darkgrey solid;
+    border: unset;
     background-color: darkgrey;
     font-size: 1.5em;
     padding: 2px;
