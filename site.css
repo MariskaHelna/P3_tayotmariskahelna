@@ -199,20 +199,94 @@ h5{
 .composer,.choisir,.deguster{
   font-size: 1.5em;
 }
-.loader{
-	background: url('images/ajax-loader.gif') 50% 50% no-repeat rgba(255, 255, 255, 1);
-	cursor: wait;
+.loader-spinner {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  cursor: wait;
 	height: 100%;
 	left: 0;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 9999;
+  background: #f2f2f2;
 
   animation: fadeOut 1s forwards;
   animation-iteration-count: 1;
-  animation-delay: 3s;
-
+  animation-delay: 3s; 
+}
+.loader-spinner div {
+  transform-origin: 40px 40px;
+  animation: loader-spinner 1.2s linear infinite;
+}
+.loader-spinner div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 37px;
+  width: 6px;
+  height: 18px;
+  border-radius: 20%;
+  background: blueviolet;
+}
+.loader-spinner div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.1s;
+}
+.loader-spinner div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -1s;
+}
+.loader-spinner div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.9s;
+}
+.loader-spinner div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.8s;
+}
+.loader-spinner div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.7s;
+}
+.loader-spinner div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.6s;
+}
+.loader-spinner div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.5s;
+}
+.loader-spinner div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.4s;
+}
+.loader-spinner div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.3s;
+}
+.loader-spinner div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.2s;
+}
+.loader-spinner div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.1s;
+}
+.loader-spinner div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+}
+@keyframes loader-spinner {
+  0% {
+    opacity: 1;
+  }
+ 
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes fadeOut {

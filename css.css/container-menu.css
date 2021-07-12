@@ -81,6 +81,8 @@
 
   .sous-titre{
     width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 
   .menu-prix {
