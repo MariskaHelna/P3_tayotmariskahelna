@@ -7,10 +7,15 @@
         height: 500px;
       }
       h2{
-        font-size: 1.5em;
+        font-size: 3.5em;
       }
-      p, .font-size1,.choisir,.composer,.deguster,.border-rose,h3{
-        font-size: 2em;
+      p, .font-size1,h3{
+        font-size: 2.5em;
+      }
+      .choisir {
+        height: 140px;
+        font-size: 2.5em;
+        
       }
       .border-violet{
         height: 40px;
@@ -23,6 +28,19 @@
       .card {
         width: 90%;
       }
+      .border-rose{
+        width: 50%;
+        padding: 20px;
+    font-size: 2.5em;
+    border-radius: 50px;
+      }
+      .bouton{
+        font-size: 3em;
+      }
+      h1{
+        font-size: 6em;
+      }
+      
 
 }
 
@@ -35,11 +53,14 @@
         object-fit: cover;
         height: 500px;
       }
-      h2{
-        font-size: 3em;
+      h1{
+        font-size: 6em;
       }
-      p, .font-size1,.choisir,.composer,.deguster,.border-rose,h3{
-        font-size: 2em;
+      h2{
+        font-size: 3.5em;
+      }
+      p, .font-size1,h3{
+        font-size: 2.5em;
       }
       .border-violet{
         height: 40px;
@@ -53,11 +74,34 @@
       }
       .border-rose{
         width: 50%;
-      }
+        padding: 20px;
+      font-size: 2.5em;
+      border-radius: 50px;
+        }
+        
       
       .card {
         width: 90%;
       }
 
+      .bouton{
+        font-size: 3em;
+      }
+      .choisir{
+        height: 140px;
+        font-size:2.5em;
+      }
+
 }
+
+@media only screen and (min-width: 1025px) {
+  .bouton{
+    font-size: 1.5em;
+  }
+  .choisir{
+    height: 80px;
+  }
+
+}
+
     

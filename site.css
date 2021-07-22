@@ -12,6 +12,9 @@
     margin-bottom: 20px;
     position: relative;
   }
+  .flex{
+    padding: 10px;
+  }
 
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -69,15 +72,15 @@
 
   body{
     font-family: roboto , ariane , sans-serif;
+    margin: 0;
   }
    
 
   footer{
     background-color: grey;
     padding: 20px;
-    margin-top: 20px;
-    color: white;
-    
+    margin-top: 0;
+    color: white;  
   }
   header{
     text-align: center;
@@ -86,7 +89,6 @@
     text-align: center;
     border: unset;
     background-color: darkgrey;
-    font-size: 1.5em;
     padding: 2px;
 }
 input::placeholder {
@@ -118,6 +120,7 @@ input::placeholder {
   .restaurant{
     background-color: #f2f2f2;
     width: 100%;
+    padding-top: 30px;
   }
 .border-rose{
   border-radius: 30px;
@@ -125,17 +128,17 @@ input::placeholder {
   color: white;
   background:linear-gradient(0deg,rgba(147,86,220,0.9), rgba(255, 121, 218, 0.9));
   text-align: center;
-  width: 100%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.5em;
-  box-shadow: 10px 5px 5px #f2f2f2 ;                    
+  box-shadow: 10px 5px 5px #f2f2f2 ;
+  margin-top: 30px;                    
   }
 .choisir{
   display: flex;
   border-radius: 30px;
-  height: 80px;
   background-color: #f2f2f2;
   align-items: center;
   margin-bottom: 20px;
@@ -173,10 +176,10 @@ p{
   font-size: 1.5em;
   margin: 0%;
 }
+
 h1{
   font-weight: 900;
-  font-style: oblique;
-  font-family: system-ui;
+  font-weight: bold;
   font-size: 4em;
   margin: 0;
 }
@@ -196,7 +199,7 @@ h5{
   margin-bottom: 10px;
 }
 
-.composer,.choisir,.deguster{
+.choisir{
   font-size: 1.5em;
 }
 .loader-spinner {
@@ -217,17 +220,17 @@ h5{
   animation-delay: 3s; 
 }
 .loader-spinner div {
-  transform-origin: 40px 40px;
+  transform-origin: 80px 80px;
   animation: loader-spinner 1.2s linear infinite;
 }
 .loader-spinner div:after {
   content: " ";
   display: block;
   position: absolute;
-  top: 3px;
-  left: 37px;
-  width: 6px;
-  height: 18px;
+  top: 6px;
+  left: 74px;
+  width: 12px;
+  height: 36px;
   border-radius: 20%;
   background: blueviolet;
 }
@@ -307,6 +310,7 @@ h5{
     right: 3%;
     top: 0%;
     background: #99e2d0;
+    margin-top: 15px;
   }
   .choisir:hover .fas{
     color: blueviolet;
@@ -331,3 +335,4 @@ h5{
   }
   .border-rose:hover{
     box-shadow: 10px 5px 5px #ff79da;  }
+  
