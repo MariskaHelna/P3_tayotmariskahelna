@@ -15,11 +15,12 @@
       .choisir {
         height: 140px;
         font-size: 2.5em;
-        
+s        
       }
       .border-violet{
         height: 40px;
         width: 40px;
+
       }
       .fa-heart{
         font-size: 3em;
@@ -39,6 +40,19 @@
       }
       h1{
         font-size: 6em;
+      }
+      .fa-mobile-alt{
+        position: relative;
+          right: 28px;
+      }
+      
+      .fa-bars{
+        position: relative;
+          right: 48px;
+      }
+      .fa-hamburger{
+        position: relative;
+          right: 38px;
       }
       
 
@@ -65,6 +79,7 @@
       .border-violet{
         height: 40px;
         width: 40px;
+
       }
       .fa-heart{
         font-size: 3em;
@@ -90,6 +105,19 @@
       .choisir{
         height: 140px;
         font-size:2.5em;
+      }
+      .fa-mobile-alt{
+        position: relative;
+          right: 28px;
+      }
+      
+      .fa-bars{
+        position: relative;
+          right: 48px;
+      }
+      .fa-hamburger{
+        position: relative;
+          right: 38px;
       }
 
 }
